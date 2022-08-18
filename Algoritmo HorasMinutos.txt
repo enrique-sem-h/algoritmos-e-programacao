@@ -3,7 +3,7 @@ Algoritmo HorasMinutos
 Inteiro horas, minutos, segundos;
 escreva(“Digite a quantidade de horas”);
 Leia(horas);
-minutos = horas/60
-segundos = (horas/60)/60
+minutos = horas * 60
+segundos = minutos * 60
 escreval(“O Resultado em minutos e ”, minutos)
 escreva(“O resultado em segundos e ”, segundos)
